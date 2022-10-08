@@ -9,7 +9,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="preloaderFunction()">
+    <div class="Rpreload">
+        <img src="./assets/III logo.png" class="RpreloadImg">
+    </div>
+    <div class="Rnavbar">
+        <ul>
+            <li><a href="#">AMALTHEA</a></li>
+        </ul>
+        <input id="toggle" type="checkbox">
+
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="#"><img class="navIcon" src="./assets/icons/home.svg">Home</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/event.svg">Events</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/speaker.svg">Conclave</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/meeting.svg">Symposium</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/exhibition.svg">Tech Expo</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/location.svg">Reach Us</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/contract.svg">Sponsors</a><br>
+                    <a href="#"><img class="navIcon" src="./assets/icons/contact.svg">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </div>
     <div class="heading1">
         <p>SYMPOSIUM</p>
     </div>
@@ -200,5 +230,5 @@
         </div>
     </div>
 </body>
-
+<script src="./index.js"></script>
 </html>
